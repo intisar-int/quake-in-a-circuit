@@ -57,6 +57,16 @@ The sensitivity percentages come from the MATLAB script and were reproduced exac
 
 ---
 
+<!-- gallery:start -->
+### All Simulink models
+
+<table>
+<tr><td align="center" width="50%"><img src="results/simulink/02_mechanical_state_space_block.png" width="100%" alt="Mechanical model as a state-space block"><br><sub>Mechanical model as a state-space block</sub></td><td align="center" width="50%"><img src="results/simulink/03_mechanical_simscape_vs_state_space.png" width="100%" alt="Mechanical Simscape model vs. state-space block"><br><sub>Mechanical Simscape model vs. state-space block</sub></td></tr>
+<tr><td align="center" width="50%"><img src="results/simulink/05_electrical_simscape_with_sensors.png" width="100%" alt="Electrical Simscape circuit with sensors"><br><sub>Electrical Simscape circuit with sensors</sub></td><td align="center" width="50%"><img src="results/simulink/07_electrical_state_space_block.png" width="100%" alt="Electrical circuit as a state-space block"><br><sub>Electrical circuit as a state-space block</sub></td></tr>
+</table>
+
+<!-- gallery:end -->
+
 ## The idea: force–voltage analogy
 
 Newton's second law for a floor and Kirchhoff's voltage law for a series RLC mesh have the same form, so each mechanical quantity has an electrical twin:
@@ -180,4 +190,8 @@ This prints the peak values, the model-to-model residuals and the sensitivity ta
 
 ## Contributors
 
-Raihana Rahman, Hamim Akther Hinth, Intisar Ahmad and MD. Yeasin Irfan.
+Raihana, Hamim, Intisar and Yeasin.
+
+## License
+
+Released under the MIT License. See [`LICENSE`](LICENSE).
