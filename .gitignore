@@ -1,0 +1,12 @@
+# Simulink / MATLAB build artifacts
+slprj/
+*.slxc
+*.autosave
+*.asv
+*.mexw64
+*.mexa64
+*.mexmaci64
+# Python
+__pycache__/
+*.pyc
+.venv/
